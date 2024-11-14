@@ -24,7 +24,7 @@ function Rs() {
   const standings = ['VIP', 'Standard', 'Classic'];
 
   return (
-    <div className="flex justify-center items-center min-h-screen ">
+    <div className="flex justify-center items-center min-h-screen bg-white">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
        
         
