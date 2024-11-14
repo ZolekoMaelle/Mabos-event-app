@@ -17,6 +17,8 @@ import Landingpage from './Pages/Landingpage';
 import Footer from './Components/Footer';
  import Details from './Pages/Details';
  import Salles from './Pages/Salles'
+ import Resa from './Pages/Resa';
+ import Rs from './Pages/Rs'
 
 
 
@@ -35,6 +37,8 @@ root.render(
           <Route path="/signup/" element={<Signup />} />
           <Route path="/details/" element={<Details />} />
           <Route path="/salles/" element={<Salles />} />
+          <Route path="/resa/" element={<Resa />} />
+          <Route path="/rs/" element={<Rs/>} />
         </Routes>
         <Footer/>
       </div>

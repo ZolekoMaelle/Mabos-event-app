@@ -4,6 +4,8 @@ import mainimage from '../resources/mainimage.jpg'
 import music from '../resources/music.png'
 import planner from '../resources/planner.jpeg'
 import wedding from '../resources/wedding.jpg'
+import { Link } from "react-router-dom";
+
 
 
 function HallReservationPage() {
@@ -130,7 +132,8 @@ function HallReservationPage() {
               </span>
             </div>
             <button className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 rounded">
-              Reserver
+            <Link to='/Resa/' label='Resa' rel="noopener noreferer">RESERVER UNE SALLE </Link>
+            
             </button>
           </div>
         ))}

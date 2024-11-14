@@ -35,7 +35,7 @@ function Resa() {
   const standings = ['VIP', 'Standard', 'Classic'];
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-blue-500">
+    <div className="flex justify-center items-center min-h-screen bg-white">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
         <h2 className="text-2xl font-semibold mb-6 text-center text-blue-600">RESERVER</h2>
         
@@ -145,8 +145,8 @@ function Resa() {
           <button
             type="submit"
             className="w-full mt-6 bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition duration-200"
-          >
-            Réserver
+          > 
+           Envoyer
           </button>
         </form>
       </div>
