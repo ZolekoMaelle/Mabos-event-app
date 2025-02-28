@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import './index.css';
 //import Contact from './Pages/Contact';
 import Landing from './Pages/Landing'

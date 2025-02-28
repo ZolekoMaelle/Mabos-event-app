@@ -46,15 +46,15 @@ const Background = () => {
         
         <div className="flex space-x-4 text-center">
           <div>
-            <span className="text-2xl font-bold">{timeRemaining.days}</span>
+            <span className="text-2xl font-bold">{timeRemaining.days}  : </span>
             <span className="block text-sm text-gray-600">days</span>
           </div>
           <div>
-            <span className="text-2xl font-bold">{timeRemaining.hours}</span>
+            <span className="text-2xl font-bold">{timeRemaining.hours}  :  </span>
             <span className="block text-sm text-gray-600">hours</span>
           </div>
           <div>
-            <span className="text-2xl font-bold">{timeRemaining.minutes}</span>
+            <span className="text-2xl font-bold">{timeRemaining.minutes} : </span>
             <span className="block text-sm text-gray-600">minutes</span>
           </div>
           <div>
