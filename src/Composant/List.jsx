@@ -2,14 +2,16 @@ import React from 'react';
 import { FaTasks, FaWallet, FaUsers, FaTruck } from 'react-icons/fa'; 
 
 const List = () => {
+
+  
   return (
-    <div className="flex justify-evenly items-center mt-10">
+    <div className="flex items-center mt-10 justify-evenly">
       
       <a
         href="/task"
         className="flex flex-col items-center text-center hover:text-blue-500"
       >
-        <FaTasks className="text-blue-600 text-6xl mb-2" />
+        <FaTasks className="mb-2 text-6xl text-blue-600" />
         <span className="text-sm font-medium">Task</span>
       </a>
 
@@ -18,7 +20,7 @@ const List = () => {
         href="/budget"
         className="flex flex-col items-center text-center hover:text-blue-500"
       >
-        <FaWallet className="text-blue-600 text-6xl mb-2" />
+        <FaWallet className="mb-2 text-6xl text-blue-600" />
         <span className="text-sm font-medium">Budget</span>
       </a>
 
@@ -26,7 +28,7 @@ const List = () => {
         href="/invites"
         className="flex flex-col items-center text-center hover:text-blue-500"
       >
-        <FaUsers className="text-blue-600 text-6xl mb-2" />
+        <FaUsers className="mb-2 text-6xl text-blue-600" />
         <span className="text-sm font-medium">Invite</span>
       </a>
 
@@ -35,7 +37,7 @@ const List = () => {
         href="/vendors"
         className="flex flex-col items-center text-center hover:text-blue-500"
       >
-        <FaTruck className="text-blue-600 text-6xl mb-2" />
+        <FaTruck className="mb-2 text-6xl text-blue-600" />
         <span className="text-sm font-medium">Fournisseurs</span>
       </a>
     </div>

@@ -1,16 +1,16 @@
 import React from 'react';
 
-const TaskList = () => {
+const Taches = () => {
   return (
-    <div className="max-w-4xl mx-auto p-6">
+    <div className="max-w-4xl p-6 mx-auto">
       
-      <h1 className="text-3xl font-bold text-center mb-6 text-blue-600">TACHES</h1>
+      <h1 className="mb-6 text-3xl font-bold text-center text-blue-600">TACHES</h1>
       
    
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center">
           
-          <div className="w-4 h-4 rounded-full bg-blue-600 flex items-center justify-center text-white mr-2">
+          <div className="flex items-center justify-center w-4 h-4 mr-2 text-white bg-blue-600 rounded-full">
             <span className="text-xs">!</span>
           </div>
           <span className="text-lg">Creer un budget</span>
@@ -22,7 +22,7 @@ const TaskList = () => {
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center">
        
-          <div className="w-4 h-4 rounded-full bg-blue-600 flex items-center justify-center text-white mr-2">
+          <div className="flex items-center justify-center w-4 h-4 mr-2 text-white bg-blue-600 rounded-full">
             <span className="text-xs">!</span>
           </div>
           <span className="text-lg">Negocier une ceremonie</span>
@@ -34,7 +34,7 @@ const TaskList = () => {
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center">
        
-          <div className="w-4 h-4 rounded-full bg-blue-600 flex items-center justify-center text-white mr-2">
+          <div className="flex items-center justify-center w-4 h-4 mr-2 text-white bg-blue-600 rounded-full">
             <span className="text-xs">!</span>
           </div>
           <span className="text-lg">Faire une liste des invites</span>
@@ -56,4 +56,4 @@ const TaskList = () => {
   );
 };
 
-export default TaskList;
+export default Taches;
