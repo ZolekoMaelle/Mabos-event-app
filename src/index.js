@@ -27,7 +27,7 @@ root.render(
     <BrowserRouter>
       <div >
         <App/>
-      
+        <button onClick={() => navigate('/')}>Go to Home Page</button>
       </div>
     </BrowserRouter>
   </React.StrictMode>
