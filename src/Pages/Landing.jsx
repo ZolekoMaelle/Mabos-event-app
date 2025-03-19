@@ -8,11 +8,11 @@ import Invites from '../Composant/Invites';
 import Fournisseurs from '../Composant/Fournisseurs';
 import Budget from '../Composant/Budget';
 import Footer from '../Composant/Footer';
-// import Note from '../Composant/Note';
+
 
 function Landing() {
     return (
-        <div>
+        <div> 
         <Navbar/>  
         <Background />
         <List />
@@ -26,3 +26,4 @@ function Landing() {
     )
 }
 export default Landing;
+
