@@ -24,6 +24,7 @@ import Ip from './Pages/Ip';
 import Sp from './Pages/Sp';
 import Tp from './Pages/Tp';
 import Mp from './Pages/Mp';
+import Bp from './Pages/Bp'
 
 export default function App() {
   return (
@@ -35,8 +36,8 @@ export default function App() {
       <Route path="/mp" element={<Mp />} />
       <Route path="/sp" element={<Sp />} />
       <Route path="/fp" element={<Fp />} />
-      {/* <Route path="/testimonials" element={<Testimonials />} />
-      <Route path="/pricing" element={<Pricing />} /> */}
+       <Route path="/bp" element={<Bp />} />
+     
     </Routes>
   );
 }
